@@ -1,0 +1,49 @@
+p{
+    color: #21003a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: #8f44ff;
+    padding: 5px;
+}
+
+h1:hover{
+    background: rgb(186, 255, 246);
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#unic{
+ font-size: larger;   
+}
+
+nav {
+    background-color: rgb(3, 0, 181);
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    padding-left: 50px;
+    position: relative;
+    animation-direction: reverse;
+}
+
+.test{
+    color: azure;   
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+nav:hover{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0px 10px 20px 2px rgb(0 0 0 / 50%);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+table{
+    color: aliceblue;
+}
