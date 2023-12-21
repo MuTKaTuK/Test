@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+body {
+    width: 1441px;
+    height: 4493px;
+    background: #191919;
+}
+
+*{
+    box-sizing: border-box;
+    position: relative;
+    cursor: url(' ../cursor.png') 10 10, auto;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* .first {
+    margin-top: 20px;
+}
+
+.headstart {
+    transform: rotate(-5deg);
+    color: #B4000F;
+    font-family: "ParmigianoPiccoloPro-BlackItalic";
+    font-size: 150px;
+    stroke: #581B34;
+    stroke-width: 50px;
+    top: 20px;
+    position: relative;
+    left: 100px;
+    margin-bottom: 60px;
+} */
+
+.bg {
+    position: absolute;
+    top: -135px;
+    left: -215px;
+    width: 1800px;
+    opacity: 60%;
+}
+
+@keyframes wiggle {
+    10% { transform: translate(-1px, -2px) rotate(-3deg); }
+    20% { transform: translate(-2px, 0px) rotate(3deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(3deg); }
+    50% { transform: translate(-1px, 2px) rotate(-3deg); }
+    60% { transform: translate(-2px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-3deg); }
+    80% { transform: translate(-1px, -1px) rotate(3deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-3deg); }
+}
+h1.wiggle {
+  display: inline-block;
+  animation: wiggle 1ms infinite;
+}
+
+
+/* .historyfont {
+    transform: rotate(5deg);
+    color: #B4000F;
+    text-align: right;
+    font-family: "ParmigianoPiccoloPro-BlackItalic";
+    font-size: 43px;
+    position: absolute;
+    top: 350px;
+    left: 1170px;
+}
+
+
+
+
+.secondtext {
+    text-align: right;
+    position: relative;
+    right: 800px;
+    top: 280px;
+}
+
+.secondstyle {
+    color: #B4000F;
+    font-family: "ParmigianoPiccoloPro-Light";
+    font-size: 85px;
+}
+
+.secondves {
+    color: #B4000F;
+    font-family: "ParmigianoPiccoloPro-Bold";
+    font-size: 85px;
+}
+
+.pizzaglif {
+    position: relative;
+    left: 400px;
+    top: -50px;
+}
+
+
+
+
+.third {
+    left: 100px;
+}
+
+.kk {
+    position: relative;
+    top: 180px;
+    left: 150px;
+}
+
+.osnovnoigradus {
+    text-align: right;
+    position: absolute;
+    top: 2010px;
+    left: 330px;
+}
+
+.osnovnoi {
+    color: #F1520D;
+    font-family: "ParmigianoPiccoloPro-MediumItalic";
+    font-size: 34px;
+}
+
+.gradusodin {
+    color: #F1520D;
+    font-family: "ParmigianoPiccoloPro-BlackItalic";
+    font-size: 50px;
+}
+
+.kapelka {
+    color: #F1520D;
+    font-family: "ParmigianoPiccoloPro-MediumItalic";
+    font-size: 34px;
+    position: absolute;
+    top: 2060px;
+    left: 960px;
+}
+
+.zasecka {
+    color: #F1520D;
+    font-family: "ParmigianoPiccoloPro-MediumItalic";
+    font-size: 34px;
+    position: absolute;
+    top: 2620px;
+    left: 210px;
+}
+
+.shtrixgradus {
+    text-align: right;
+    position: absolute;
+    top: 2590px;
+    left: 550px;
+}
+
+.shtrix {
+    color: #F1520D;
+    font-family: "ParmigianoPiccoloPro-MediumItalic";
+    font-size: 34px;
+}
+
+.gradusdva {
+    color: #F1520D;
+    font-family: "ParmigianoPiccoloPro-BlackItalic";
+    font-size: 50px;
+}
+
+.element {
+    color: #F1520D;
+    font-family: "ParmigianoPiccoloPro-MediumItalic";
+    font-size: 34px;
+    position: absolute;
+    top: 2540px;
+    left: 1030px;
+}
+
+
+
+
+.four {}
+
+.car {
+    width: 106%;
+    position: relative;
+    top: 500px;
+}
+
+.bodoni {
+    color: #B4000F;
+    font-family: "ParmigianoPiccoloPro-BlackItalic";
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 176px;
+    left: 190px;
+}
+
+
+
+
+.five {}
+
+.vectorline {
+    width: 106%;
+    position: relative;
+    top: 530px;
+}
+
+.strangeglif {
+    color: #591A34;
+    font-family: "ParmigianoPiccoloPro-BlackItalic";
+    font-size: 280px;
+    position: relative;
+    left: 820px;
+    top: 40px;
+}
+
+
+
+
+.six {}
+
+.lines {
+    width: 106%;
+    position: relative;
+    top: 400px;
+}
+
+.qwerty {
+    color: #B4000F;
+    font-family: "ParmigianoPiccoloPro-Light";
+    font-size: 270px;
+    position: relative;
+    top: 130px;
+    left: 30px;
+}
+
+.cost {
+    position: relative;
+    top: -30px;
+    left: 1030px;
+    width: 360px;
+}
+
+
+
+
+.seven {}
+
+.skalka {
+    width: 100%;
+    position: relative;
+    top: 150px;
+    left: 45px;
+}
+
+.lan {
+    color: #591A34;
+    font-family: "ParmigianoPiccoloPro-Black";
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+    top: -20px;
+    left: 50px;
+}
+
+.box {
+    width: 850px;
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+
+.languages {
+    color: #B4000F;
+    text-align: center;
+    font-family: "ParmigianoPiccoloPro-Black";
+    font-size: 32px;
+    line-height: 155%;
+    position: relative;
+    top: -700px;
+    left: 50px;
+}
+
+.skushai {
+    width: 580px;
+    position: absolute;
+    top: 5200px;
+    left: 40px;
+}
+
+.vkusno {
+    width: 540px;
+    position: absolute;
+    top: 5930px;
+    left: 1015px;
+}
+
+
+
+
+.eight {}
+
+.ramka {
+    position: absolute;
+    top: 6500px;
+    left: 65px;
+}
+
+.napitok {
+    position: absolute;
+    top: 6470px;
+    left: 530px;
+}
+
+.ispei {
+    position: absolute;
+    top: 6650px;
+    left: 150px;
+}
+
+.voda {
+    position: absolute;
+    top: 6920px;
+    left: 530px;
+}
+
+
+
+
+.nine {}
+
+.shashkiodin {
+    width: 106%;
+    position: relative;
+    top: 1030px;
+}
+
+.glifi {
+    width: 900px;
+    position: relative;
+    top: 1050px;
+    left: 40px;
+}
+
+.shashkidva {
+    width: 106%;
+    position: relative;
+    top: 1170px;
+}
+
+.poprobuyi {
+    color: #F1520D;
+    font-family: "ParmigianoPiccoloPro-Black";
+    font-size: 64px;
+    position: relative;
+    top: 360px;
+    left: 800px;
+}
+
+.vkusnie {
+    color: #B4000F;
+    font-family: "ParmigianoPiccoloPro-Black";
+    font-size: 64px;
+    position: relative;
+    top: 780px;
+    left: 720px;
+} */
